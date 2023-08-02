@@ -5,7 +5,7 @@ import { AuthModule } from './modules/auth/auth.module';
 
 @Module({
   imports: [
-        MongooseModule.forRoot('mongodb+srv://shaka:mY9CPBYq8UcTCYcr@cluster0.dtjt9kl.mongodb.net/prueba', {
+        MongooseModule.forRoot('', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       }as MongooseModuleOptions),
